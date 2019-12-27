@@ -9,8 +9,6 @@ location api: google map
 
 ![title](https://upload.cc/i1/2019/12/27/j2MbQg.png).
 
-p.s. this project cannot run in IE/Edge browser now, I will fix it soon.
-
 contact me: houn27@163.com
 
 ## framework
