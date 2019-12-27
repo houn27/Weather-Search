@@ -1,4 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# weather-Search
+
+## Introduction
+this is a front-end of website that show your local weather and search the weather of any cities
+
+weather api:https://darksky.net/dev
+
+location api: google map
+
+![title](https://upload.cc/i1/2019/12/27/j2MbQg.png).
+
+p.s. this project cannot run in IE/Edge browser now, I will fix it soon.
+
+contact me: houn27@163.com
+
+## framework
+React@16.12.0
+
+axios@0.19.0
+
+antd@3.26.4
+
+
 
 ## Available Scripts
 

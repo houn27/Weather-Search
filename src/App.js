@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react';  
 import './App.css';
+import { Layout } from 'antd';
+import Main from './components/Main.js'
+const { Header, Footer,  Content } = Layout;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Layout>
+      <Header className="header">Header</Header>
+      <Content className="main">
+        <Main></Main>
+      </Content>
+      <Footer className="footer">Copyright © 2019 Ron</Footer>
+    </Layout>
+  </div>
+);
 
 export default App;
